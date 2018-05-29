@@ -10,4 +10,7 @@ module.exports = {
       port: 3306,
     },
   },
+  authentication: {
+    jwtSecret: process.env.JWT_SECRET || 'secret',
+  },
 }
